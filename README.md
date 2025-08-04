@@ -1,7 +1,9 @@
 # NemLinkPDFSplitter
 
-Teijin社のNemLinkサービスからダウンロードしたCPAP概要レポートPDFを、**患者IDごとに4ページずつ分割し、RS_Base（レセプトソフト）での自動ファイリングに適したファイル名にリネームして保存**するWindows用ツールです。
+Teijin社のNemLinkサービスからダウンロードしたCPAP概要レポートPDFを、**患者IDごとに4ページずつ分割し、RS_Baseでの自動ファイリング名にリネームして保存**するWindows用ツールです。
+
 このような1人4ページのレポートです。
+
 ![report](https://github.com/user-attachments/assets/f0671e58-9e37-4265-a589-c8ea3af51b8f)
 
 ---
@@ -29,4 +31,5 @@ Teijin社のNemLinkサービスからダウンロードしたCPAP概要レポー
 1. [Release](https://github.com/YUKI-ENT/NemlinkPDFSplitter/releases) から`PDFSplitter.exe`をダウンロード
 2. `PDFSplitter.exe`を任意のフォルダに配置し実行するだけです。
 ![pdfsplitter_gui](https://github.com/user-attachments/assets/d0aed9dc-a732-42cd-be4e-885ad68ffe86)
+3. ネムリンクでは、ログイン後全患者を選択 → `レポート印刷` を押すと全患者のデータが連結されたPDFがダウンロードできます。 
 
