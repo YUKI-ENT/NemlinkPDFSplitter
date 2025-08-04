@@ -1,0 +1,11 @@
+# ビルド生成物
+__pycache__/
+*.pyc
+*.spec
+dist/
+build/
+*.exe
+
+# 設定ファイル（個人環境）
+config.json
+.vscode/
