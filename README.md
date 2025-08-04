@@ -26,7 +26,7 @@ Teijin社のNemLinkサービスからダウンロードしたCPAP概要レポー
 ---
 
 ## 🚀 起動方法
-
-### `PDFSplitter.exe`を任意のフォルダに配置しじっこうするだけです。
+1. [Release](https://github.com/YUKI-ENT/NemlinkPDFSplitter/releases) から`PDFSplitter.exe`をダウンロード
+2. `PDFSplitter.exe`を任意のフォルダに配置し実行するだけです。
 ![pdfsplitter_gui](https://github.com/user-attachments/assets/d0aed9dc-a732-42cd-be4e-885ad68ffe86)
 
