@@ -25,6 +25,13 @@ def save_config(output_dir, exam_name):
     with open(CONFIG_FILE, "w", encoding="utf-8") as f:
         json.dump(config, f, ensure_ascii=False, indent=2)
 
+# --- 設定保存フック ---
+def save_current_config():
+    output = entry_output.get().strip()
+    exam = entry_exam.get().strip() or "SAS検査"
+    if output:
+        save_config(output, exam)
+
 # GUI終了時に保存
 def on_closing():
     output_dir = entry_output.get().strip()
@@ -79,6 +86,7 @@ def select_output_dir():
     if folder:
         entry_output.delete(0, tk.END)
         entry_output.insert(0, folder)
+        save_current_config()
 
 def run():
     pdf_path = entry_pdf.get()
