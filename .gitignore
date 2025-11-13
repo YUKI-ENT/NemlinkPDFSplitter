@@ -5,6 +5,7 @@ __pycache__/
 dist/
 build/
 *.exe
+.venv/
 
 # 設定ファイル（個人環境）
 config.json

@@ -1,4 +1,5 @@
 {
   "output_dir": "D:/work",
-  "exam_name": "SAS検査"
+  "exam_name": "SAS検査",
+  "pages_per_split": 4
 }
