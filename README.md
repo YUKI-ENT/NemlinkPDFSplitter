@@ -32,6 +32,7 @@ Teijin社のNemLinkサービスからダウンロードしたCPAP概要レポー
 ## 🚀 起動方法
 1. [Release](https://github.com/YUKI-ENT/NemlinkPDFSplitter/releases) から`PDFSplitter.exe`をダウンロード
 2. `PDFSplitter.exe`を任意のフォルダに配置し実行するだけです。
-![pdfsplitter_gui](https://github.com/user-attachments/assets/d0aed9dc-a732-42cd-be4e-885ad68ffe86)
+    <img width="682" height="272" alt="image" src="https://github.com/user-attachments/assets/aa71a71f-8445-4e16-8fee-588d5f475a31" />
+
 3. ネムリンクでは、ログイン後全患者を選択 → `レポート印刷` を押すと全患者のデータが連結されたPDFがダウンロードできます。このPDFを本ツールで処理して下さい。 
 
